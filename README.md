@@ -144,7 +144,7 @@ This query identifies customers who spent more than the average amount on festiv
 <img width="358" alt="image" src="https://github.com/user-attachments/assets/4117117a-64e7-4586-889d-6a9aec547e40">
 
 10. **Top-Earning Artists and Their Pay[CALL PT_Q10();]:**
-This query retrieves a list of the top-earning performers, displaying how much they were paid. Knowing which artists are the highest earners provides insight into budget allocations for performances. It also helps in negotiating contracts for future festivals, ensuring the festival can balance high-profile acts with cost-effective performances.
+This query retrieves a list of the top-earning performers, displaying their salary. Knowing which artists are the highest earners provides insight into budget allocations for performances. It also helps in negotiating contracts for future festivals, ensuring the festival can balance high-profile acts with cost-effective performances.
 
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/656e7a9d-2e33-4233-90ac-0bc12478f367">
 <img width="372" alt="image" src="https://github.com/user-attachments/assets/0e5af96c-bb8d-4044-97c0-f5c77c3c046f">
