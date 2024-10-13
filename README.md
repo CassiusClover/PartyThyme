@@ -87,7 +87,7 @@ The data model provides a robust structure to manage a multi-faceted music festi
 
 ## Queries
 
-<img width="305" alt="image" src="https://github.com/user-attachments/assets/c2eb5055-b521-48e4-9e18-b499d9be9e12">
+<img width="610" alt="image" src="https://github.com/user-attachments/assets/bf0db6a7-840b-4a4c-a831-b32d05fd7c90">
 
 1. **Employees Working at a Specific Stage:**
 This query retrieves the names of employees who are assigned to work at a specific stage, such as the "Party Stage." By joining the Employee and Stage tables, it matches employees to their designated stages. This information is crucial for managers who need to know which staff members are positioned where, allowing them to make adjustments for staffing needs, coordinate team activities, and ensure smooth operations during events.
