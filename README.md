@@ -67,6 +67,36 @@ The data model provides a robust structure to manage a multi-faceted music festi
 
 
 ## Queries
+
+1. Employees Working at a Specific Stage
+This query retrieves the names of employees who are assigned to work at a specific stage, such as the "Party Stage." By joining the Employee and Stage tables, it matches employees to their designated stages. This information is crucial for managers who need to know which staff members are positioned where, allowing them to make adjustments for staffing needs, coordinate team activities, and ensure smooth operations during events.
+
+2. Count of Direct Reports per Manager
+This query counts the number of employees who report directly to each manager by grouping employees based on their idBoss field, which indicates their supervisor. Understanding how many people report to each manager is valuable for assessing workload distribution and ensuring managers aren’t overburdened. It also helps in planning and allocating team members efficiently, especially when managing large teams during festival events.
+
+3. Employees Who Report Directly to Jessica Wilson
+This query specifically identifies which employees report directly to a manager named Jessica Wilson by matching their idBoss field to her employee ID. Knowing who reports to a particular supervisor is useful for management purposes, such as scheduling meetings, distributing tasks, or resolving issues within a team. It streamlines communication and helps Jessica track and support her direct reports effectively.
+
+4. Total Sponsorship Money Received from Each Company for Each Festival
+This query calculates the total sponsorship amount received from each company for different festivals. It groups the results by SponsorName and Festival. Tracking sponsorship funds by company and festival is essential for financial planning and analysis. It provides insights into which sponsors are contributing the most and can help in identifying valuable partnerships for future events.
+
+5. Ticket Sales by Type for Attendees Aged 20 to 30
+This query retrieves the number of tickets sold, grouped by ticket type and the age of attendees (specifically those aged 20 to 30). By analyzing ticket sales by age group and type, managers can identify which demographics are buying certain types of tickets. This information is key for marketing strategies, promotions, and pricing models for future events.
+
+6. Performers Who Participated in More Performances Than the Average
+This query identifies performers who have participated in more performances than the average number across all performers. By listing these high-performing artists, it can help organizers recognize popular or in-demand acts. Understanding which artists are most active can also inform scheduling decisions for future festivals and ensure top performers receive the exposure they deserve.
+
+7. Attendees Who Purchased More Than One Type of Ticket
+This query checks for attendees who bought more than one type of ticket, although it currently returns no results because of a one-ticket-per-person limit. Tracking ticket purchases in this way would help identify attendees who are especially interested in multiple experiences at a festival, and it may guide changes to ticketing policies or create opportunities for special packages in the future.
+
+8. Vendors Ranked by Total Sales
+This query ranks vendors based on their total sales, providing a clear view of which vendors performed best during the festival. Knowing which vendors are bringing in the most revenue can help organizers make decisions on vendor selection, placement, and partnership opportunities for future events. It’s a key piece of data for maximizing profit and enhancing the attendee experience.
+
+9. Customers Who Spent More Than Average on Merchandise
+This query identifies customers who spent more than the average amount on festival merchandise. Recognizing these high spenders is useful for targeting loyal customers with special offers, loyalty rewards, or exclusive merchandise. It helps build relationships with attendees and encourages repeat purchases.
+
+10. Top-Earning Artists and Their Pay
+This query retrieves a list of the top-earning performers, displaying how much they were paid. Knowing which artists are the highest earners provides insight into budget allocations for performances. It also helps in negotiating contracts for future festivals, ensuring the festival can balance high-profile acts with cost-effective performances.
 <img width="305" alt="image" src="https://github.com/user-attachments/assets/c2eb5055-b521-48e4-9e18-b499d9be9e12">
 
 1.	 Retrieve the names of employees working on a particular stage.
