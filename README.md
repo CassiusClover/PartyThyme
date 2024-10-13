@@ -12,8 +12,9 @@ MIS JACKSON OOO
 - [@Lexi Page](https://github.com/Lexip124)
 - [@Ian Driggers](https://github.com/iandriggers)
 
- 
-## Data Model
+## Problem Discription
+This database is designed to manage information related to a music festival, including attendees, performers, performances, vendors, sales, sponsors, employees, and stages. It captures data related to multiple festivals, with the goal of organizing festival logistics and ensuring smooth operations.
+
 ### Music Festival Data Model
 
 **Explanation of Data Model:**
