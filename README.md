@@ -104,11 +104,13 @@ Note: It doesn’t return anything because the data we pulled from ChatGPT just 
 
 
 9.Which customers spent more than average on merch?
+
 <img width="353" alt="image" src="https://github.com/user-attachments/assets/56ea0b79-b2ba-4aa5-ab1b-48e919683042">
 <img width="358" alt="image" src="https://github.com/user-attachments/assets/4117117a-64e7-4586-889d-6a9aec547e40">
 
 
 10.How much did top earning artists get paid?
+
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/656e7a9d-2e33-4233-90ac-0bc12478f367">
 <img width="372" alt="image" src="https://github.com/user-attachments/assets/0e5af96c-bb8d-4044-97c0-f5c77c3c046f">
 
