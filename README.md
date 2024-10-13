@@ -67,6 +67,8 @@ The data model provides a robust structure to manage a multi-faceted music festi
 
 
 ## Queries
+<img width="305" alt="image" src="https://github.com/user-attachments/assets/c2eb5055-b521-48e4-9e18-b499d9be9e12">
+
 1.	 Retrieve the names of employees working on a particular stage.
 <img width="432" alt="image" src="https://github.com/user-attachments/assets/42addca9-ff7b-4eef-b109-520e3a959fa3">
 <img width="178" alt="image" src="https://github.com/user-attachments/assets/5e245570-9890-4157-aebc-b06a1a0c6e59">
