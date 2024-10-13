@@ -73,7 +73,6 @@ The data model provides a robust structure to manage a multi-faceted music festi
 <img width="432" alt="image" src="https://github.com/user-attachments/assets/42addca9-ff7b-4eef-b109-520e3a959fa3">
 <img width="178" alt="image" src="https://github.com/user-attachments/assets/5e245570-9890-4157-aebc-b06a1a0c6e59">
 
-
 2.	This query counts how many direct reports each manager has.
  <img width="468" alt="image" src="https://github.com/user-attachments/assets/6670b6ab-4e8a-41c9-9ab2-41bf12f1ee08">
  <img width="282" alt="image" src="https://github.com/user-attachments/assets/6dbb36df-5da0-45ee-a9e8-7ae4dfa196e8">
@@ -85,12 +84,15 @@ The data model provides a robust structure to manage a multi-faceted music festi
 4.	Query: Total amount of sponsorship money received from a specific company for each festival (see variation on next page where I instead search a specific company to see what their total sponsorship was for a festival instead of pulling every company and sponsorName.
    <img width="274" alt="image" src="https://github.com/user-attachments/assets/0fc839ce-990d-49a1-b674-c1d922a4681c">
 <img width="223" alt="image" src="https://github.com/user-attachments/assets/40d1a865-cffa-495c-ae60-fff833115c44">
+
 5.	Query returns the number of tickets sold for each ticket type for attendees aged 20 to 30, grouped by both ticket type and age.
    <img width="315" alt="image" src="https://github.com/user-attachments/assets/72c9164f-3a00-4f35-a2a3-455bf59c9fb9">
    <img width="234" alt="image" src="https://github.com/user-attachments/assets/596c31ef-aa2d-4c8e-bf37-af55c4d169ea">
+
 6.	This query identifies performers who have participated in more performances than the average number of performances and also lists the number of performances
 <img width="362" alt="image" src="https://github.com/user-attachments/assets/3229a4e5-e780-4938-985f-c239cc0a17fa">
 <img width="231" alt="image" src="https://github.com/user-attachments/assets/d791c9a8-3987-4691-a900-51027ab5889c">
+
 7.	This query retrieves the attendees who have purchased tickets of more than one type. 
 Note: It doesn’t return anything because the data we pulled from ChatGPT just had everyone buy one ticket (or maybe we stipulated that, idk) but this query still would be useful for  a manager. 
 <img width="429" alt="image" src="https://github.com/user-attachments/assets/724eb214-3418-4434-bae7-04e8fb743197">
