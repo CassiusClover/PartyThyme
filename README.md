@@ -145,7 +145,12 @@ Note: It doesn’t return anything because the data we pulled from ChatGPT just 
 <img width="372" alt="image" src="https://github.com/user-attachments/assets/0e5af96c-bb8d-4044-97c0-f5c77c3c046f">
 
 
+## Queries
 
+## Data Base Information
+Name of the database: cs_jpo90532
+
+Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL PT_Q1();
 
 
 
