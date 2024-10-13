@@ -26,6 +26,24 @@ At the core of this model is the **Festival** entity, representing each individu
 
 <img width="698" alt="Screenshot 2024-10-13 at 4 57 32 PM" src="https://github.com/user-attachments/assets/3f6b771b-aa09-4c65-9753-daa6534a22bf">
 
+## Data Dictionary
+
+<img width="686" alt="Screenshot 2024-10-13 at 5 04 23 PM" src="https://github.com/user-attachments/assets/622d59d1-882c-4a55-89be-9a1f725d6f61">
+<img width="681" alt="Screenshot 2024-10-13 at 5 04 42 PM" src="https://github.com/user-attachments/assets/3812596a-ba97-4140-9573-808dec034e8d">
+<img width="678" alt="Screenshot 2024-10-13 at 5 04 51 PM" src="https://github.com/user-attachments/assets/5541d2f4-1c9e-4a39-87f7-10005a569f77">
+<img width="675" alt="Screenshot 2024-10-13 at 5 04 57 PM" src="https://github.com/user-attachments/assets/546aa055-dd89-4b96-bf2e-3df31d0746f5">
+<img width="648" alt="Screenshot 2024-10-13 at 5 05 03 PM" src="https://github.com/user-attachments/assets/9c32f36e-5ed8-4767-b43b-edd95db623ba">
+<img width="670" alt="Screenshot 2024-10-13 at 5 05 14 PM" src="https://github.com/user-attachments/assets/07b6e258-b985-4388-be90-809f88aa1572">
+<img width="664" alt="Screenshot 2024-10-13 at 5 05 26 PM" src="https://github.com/user-attachments/assets/b21d2291-895f-40d5-9bcb-2be42e6be491">
+<img width="665" alt="Screenshot 2024-10-13 at 5 05 31 PM" src="https://github.com/user-attachments/assets/9ee35c9f-0841-4790-9300-2e43f0f17f88">
+<img width="644" alt="Screenshot 2024-10-13 at 5 05 38 PM" src="https://github.com/user-attachments/assets/218eac30-d184-4405-b2aa-6d550aac1986">
+<img width="650" alt="Screenshot 2024-10-13 at 5 05 53 PM" src="https://github.com/user-attachments/assets/39d58fb7-fa4d-465a-9215-9c17bff427c2">
+<img width="489" alt="Screenshot 2024-10-13 at 5 06 15 PM" src="https://github.com/user-attachments/assets/79de007c-b94b-4eab-9d03-657a1b356804">
+<img width="334" alt="Screenshot 2024-10-13 at 5 06 33 PM" src="https://github.com/user-attachments/assets/0b0920dd-1ce5-42d3-a8da-09da28409d8d">
+<img width="328" alt="Screenshot 2024-10-13 at 5 06 46 PM" src="https://github.com/user-attachments/assets/7ff185f3-738d-430e-801b-21dd72f75938">
+<img width="588" alt="Screenshot 2024-10-13 at 5 07 03 PM" src="https://github.com/user-attachments/assets/6b1a54fe-5d26-4268-a628-c4ea94151cf1">
+<img width="594" alt="Screenshot 2024-10-13 at 5 07 08 PM" src="https://github.com/user-attachments/assets/390cbf5a-7bb2-4293-8e13-5b29925ee782">
+
 
 ### Key Relationships:
 
@@ -132,8 +150,6 @@ This query retrieves a list of the top-earning performers, displaying how much t
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/656e7a9d-2e33-4233-90ac-0bc12478f367">
 <img width="372" alt="image" src="https://github.com/user-attachments/assets/0e5af96c-bb8d-4044-97c0-f5c77c3c046f">
 
-
-## Queries
 
 ## Data Base Information
 Name of the database: cs_jpo90532
