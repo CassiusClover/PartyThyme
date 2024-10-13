@@ -6,13 +6,11 @@ This database is designed to manage information related to a music festival, inc
 ## Team Name
 MIS JACKSON OOO
 ## Authors
-
-- [@CassiusClover](https://github.com/CassiusClover)
-
- - [@joneill325](https://github.com/joneill325)
- - [@emmaeslick](https://github.com/emmaeslick)
-  - [@Lexip124](https://github.com/Lexip124)
-  - [@iandriggers](https://github.com/iandriggers)
+- [@Caleb O'Neill](https://github.com/CassiusClover)
+- [@Jonah O'Neill](https://github.com/joneill325)
+- [@Emma Eslick](https://github.com/emmaeslick)
+- [@Lexi Page](https://github.com/Lexip124)
+- [@Ian Driggers](https://github.com/iandriggers)
 
  
 ## Data Model
