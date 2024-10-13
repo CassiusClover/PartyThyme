@@ -8,10 +8,9 @@ MIS JACKSON OOO
 ## Authors
 
 - [@CassiusClover](https://github.com/CassiusClover)
-
  - [@joneill325](https://github.com/joneill325)
  - [@emmaeslick](https://github.com/emmaeslick)
-  - [@Lexip124](https://github.com/Lexip124)
+  - [@lexip124](https://github.com/lexip124)
 
  
 ## Data Model
@@ -22,35 +21,38 @@ MIS JACKSON OOO
 Our model is based on the structure of a hypothetical music festival system, where multiple festivals take place, each with a variety of attendees, performances, vendors, and sponsors. This model helps manage key operational aspects of the festival, such as ticketing, sales, performances, and employee management.
 
 At the core of this model is the **Festival** entity, representing each individual festival. Festivals are held at different locations and have specific start and end dates. Each festival has multiple vendors, performances, stages, and employees linked to it. To maintain clear relationships, we've established several one-to-many and many-to-many relationships that reflect the real-world structure of these events.
-
+   ![Image 10-2-24 at 8 22 PM](https://github.com/user-attachments/assets/93c9caa7-fe6a-417f-bfa0-18f9e900d070)
 
 ### Key Relationships:
 
 1. **Festival to Vendors**:  
    Each festival has multiple vendors selling goods during the event. This is represented by a one-to-many relationship between the **Festival** and **Vendor** entities. Vendors can sell various items, tracked in the **Item** table, and each vendor's sales are recorded in the **Sale** and **LineItem** tables.
 
-2. **Vendor to Sales and Items**:  
+2. **Vendor to Sales and Items**:
+Vendors are linked to the Item entity, which contains details of the items they sell. A one-to-many relationship exists between Vendor and Item. Vendors make sales to attendees, and each sale is captured in the Sale table, which records the total sales amount and the date of each transaction. The LineItem table breaks down each sale into individual items, allowing the system to track what was sold and at what price.
+
+3. **Vendor to Sales and Items**:  
    Vendors are linked to the **Item** entity, which contains details of the items they sell. A one-to-many relationship exists between **Vendor** and **Item**. Vendors make sales to attendees, and each sale is captured in the **Sale** table, which records the total sales amount and the date of each transaction. The **LineItem** table breaks down each sale into individual items, allowing the system to track what was sold and at what price.
 
-3. **Festival to Stages and Performances**:  
+4. **Festival to Stages and Performances**:  
    Each festival has several stages, and each stage hosts multiple performances. This is represented by a one-to-many relationship between the **Festival** and **Stage** entities. The **Stage** entity captures information such as the stage's name and capacity. A stage can have multiple performances, which are tracked in the **Performance** entity, where details like start and end times, as well as the associated performers, are stored.
 
-4. **Performer to Performance**:  
+5. **Performer to Performance**:  
    Each performance features one performer or group, represented by the **Performer** entity. Performers are linked to performances via a one-to-many relationship, meaning one performer can have multiple performances at the festival. The **Performer** entity contains details like the performer's name, genre, and performance cost.
 
-5. **Attendee and Tickets**:  
+6. **Attendee and Tickets**:  
    Attendees, represented by the **Attendee** entity, are linked to the **Ticket** entity, which tracks the type and price of tickets purchased. Each attendee can buy one ticket, creating a one-to-one relationship between **Attendee** and **Ticket**. The **Attendees** table captures personal information like the attendee's name, age, and email.
 
-6. **Attendee to Performances (Attendants)**:  
+7. **Attendee to Performances (Attendants)**:  
    Attendees can attend multiple performances, and each performance can be attended by multiple attendees. To capture this many-to-many relationship, we have an associative entity called **Attendants**, which links **Attendee** to **Performance**. This allows the system to track which attendees attended which performances.
 
-7. **Festival to Sponsorships**:  
+8. **Festival to Sponsorships**:  
    Each festival is supported by multiple sponsors, represented in the **Sponsorship** entity, which captures the sponsor's name and the amount of money given. The relationship between festivals and sponsors is managed via the **FestivalSponsor** junction table, which creates a many-to-many link between the **Festival** and **Sponsorship** entities. This ensures that each sponsor can support multiple festivals, and each festival can have multiple sponsors.
 
-8. **Employee Management**:  
+9. **Employee Management**:  
    Each festival employs various staff members, represented by the **Employee** entity. Employees are associated with specific stages (e.g., stage crew) and have roles such as stage boss or general staff. The **Employee** entity contains details like employee names, roles, and salaries. To capture the hierarchy within the staff, there is a self-referencing relationship in the **Employee** table, where each employee can have a supervisor (stage boss), indicated by the **idBoss** field.
 
-9. **Total Purchases by Attendee**:  
+10. **Total Purchases by Attendee**:  
    Attendees purchase items from vendors, and these purchases are summarized in the **TotalPurchases** table, which links the **Attendee** and **Sale** entities. This table provides a comprehensive view of an attendee’s spending during the festival.
 
 ### Additional Entities:
