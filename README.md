@@ -70,61 +70,61 @@ The data model provides a robust structure to manage a multi-faceted music festi
 
 <img width="305" alt="image" src="https://github.com/user-attachments/assets/c2eb5055-b521-48e4-9e18-b499d9be9e12">
 
-1. **Employees Working at a Specific Stage**
+1. **Employees Working at a Specific Stage:**
 This query retrieves the names of employees who are assigned to work at a specific stage, such as the "Party Stage." By joining the Employee and Stage tables, it matches employees to their designated stages. This information is crucial for managers who need to know which staff members are positioned where, allowing them to make adjustments for staffing needs, coordinate team activities, and ensure smooth operations during events.
 
 <img width="432" alt="image" src="https://github.com/user-attachments/assets/42addca9-ff7b-4eef-b109-520e3a959fa3">
 <img width="178" alt="image" src="https://github.com/user-attachments/assets/5e245570-9890-4157-aebc-b06a1a0c6e59">
 
-2. **Count of Direct Reports per Manager**
+2. **Count of Direct Reports per Manager:**
 This query counts the number of employees who report directly to each manager by grouping employees based on their idBoss field, which indicates their supervisor. Understanding how many people report to each manager is valuable for assessing workload distribution and ensuring managers aren’t overburdened. It also helps in planning and allocating team members efficiently, especially when managing large teams during festival events.
 
  <img width="468" alt="image" src="https://github.com/user-attachments/assets/6670b6ab-4e8a-41c9-9ab2-41bf12f1ee08">
  <img width="282" alt="image" src="https://github.com/user-attachments/assets/6dbb36df-5da0-45ee-a9e8-7ae4dfa196e8">
 
-3. **Employees Who Report Directly to Jessica Wilson**
+3. **Employees Who Report Directly to Jessica Wilson:**
 This query specifically identifies which employees report directly to a manager named Jessica Wilson by matching their idBoss field to her employee ID. Knowing who reports to a particular supervisor is useful for management purposes, such as scheduling meetings, distributing tasks, or resolving issues within a team. It streamlines communication and helps Jessica track and support her direct reports effectively.
 
 <img width="444" alt="image" src="https://github.com/user-attachments/assets/e69853e0-5273-4cb0-a0e1-ffe0a1564140">
 <img width="192" alt="image" src="https://github.com/user-attachments/assets/c441b85d-dd02-43d1-b5f5-70f837257536">
 
-4. **Total Sponsorship Money Received from Each Company for Each Festival**
+4. **Total Sponsorship Money Received from Each Company for Each Festival:**
 This query calculates the total sponsorship amount received from each company for different festivals. It groups the results by SponsorName and Festival. Tracking sponsorship funds by company and festival is essential for financial planning and analysis. It provides insights into which sponsors are contributing the most and can help in identifying valuable partnerships for future events.
 
    <img width="274" alt="image" src="https://github.com/user-attachments/assets/0fc839ce-990d-49a1-b674-c1d922a4681c">
 <img width="223" alt="image" src="https://github.com/user-attachments/assets/40d1a865-cffa-495c-ae60-fff833115c44">
 
-5. **Ticket Sales by Type for Attendees Aged 20 to 30**
+5. **Ticket Sales by Type for Attendees Aged 20 to 30:**
 This query retrieves the number of tickets sold, grouped by ticket type and the age of attendees (specifically those aged 20 to 30). By analyzing ticket sales by age group and type, managers can identify which demographics are buying certain types of tickets. This information is key for marketing strategies, promotions, and pricing models for future events.
 
  <img width="315" alt="image" src="https://github.com/user-attachments/assets/72c9164f-3a00-4f35-a2a3-455bf59c9fb9">
    <img width="234" alt="image" src="https://github.com/user-attachments/assets/596c31ef-aa2d-4c8e-bf37-af55c4d169ea">
 
-6. **Performers Who Participated in More Performances Than the Average**
+6. **Performers Who Participated in More Performances Than the Average:**
 This query identifies performers who have participated in more performances than the average number across all performers. By listing these high-performing artists, it can help organizers recognize popular or in-demand acts. Understanding which artists are most active can also inform scheduling decisions for future festivals and ensure top performers receive the exposure they deserve.
 
 <img width="362" alt="image" src="https://github.com/user-attachments/assets/3229a4e5-e780-4938-985f-c239cc0a17fa">
 <img width="231" alt="image" src="https://github.com/user-attachments/assets/d791c9a8-3987-4691-a900-51027ab5889c">
 
-7. **Attendees Who Purchased More Than One Type of Ticket**
+7. **Attendees Who Purchased More Than One Type of Ticket:**
 This query checks for attendees who bought more than one type of ticket, although it currently returns no results because of a one-ticket-per-person limit. Tracking ticket purchases in this way would help identify attendees who are especially interested in multiple experiences at a festival, and it may guide changes to ticketing policies or create opportunities for special packages in the future.
 
 <img width="429" alt="image" src="https://github.com/user-attachments/assets/724eb214-3418-4434-bae7-04e8fb743197">
 <img width="369" alt="image" src="https://github.com/user-attachments/assets/05f776ff-50c6-4d80-b6e2-f69140b6dcdf">
 
-8. **Vendors Ranked by Total Sales**
+8. **Vendors Ranked by Total Sales:**
 This query ranks vendors based on their total sales, providing a clear view of which vendors performed best during the festival. Knowing which vendors are bringing in the most revenue can help organizers make decisions on vendor selection, placement, and partnership opportunities for future events. It’s a key piece of data for maximizing profit and enhancing the attendee experience.
 
 <img width="534" alt="image" src="https://github.com/user-attachments/assets/e3686c9f-2bde-4947-ab6b-86d18a9da76a">
 <img width="288" alt="image" src="https://github.com/user-attachments/assets/7638bff7-fff2-464f-ad2f-db23ce6f0277">
 
-9. **Customers Who Spent More Than Average on Merchandise**
+9. **Customers Who Spent More Than Average on Merchandise:**
 This query identifies customers who spent more than the average amount on festival merchandise. Recognizing these high spenders is useful for targeting loyal customers with special offers, loyalty rewards, or exclusive merchandise. It helps build relationships with attendees and encourages repeat purchases.
 
 <img width="353" alt="image" src="https://github.com/user-attachments/assets/56ea0b79-b2ba-4aa5-ab1b-48e919683042">
 <img width="358" alt="image" src="https://github.com/user-attachments/assets/4117117a-64e7-4586-889d-6a9aec547e40">
 
-10. **Top-Earning Artists and Their Pay**
+10. **Top-Earning Artists and Their Pay:**
 This query retrieves a list of the top-earning performers, displaying how much they were paid. Knowing which artists are the highest earners provides insight into budget allocations for performances. It also helps in negotiating contracts for future festivals, ensuring the festival can balance high-profile acts with cost-effective performances.
 
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/656e7a9d-2e33-4233-90ac-0bc12478f367">
