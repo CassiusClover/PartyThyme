@@ -68,12 +68,46 @@ The data model provides a robust structure to manage a multi-faceted music festi
 
 ## Queries
 1.	 Retrieve the names of employees working on a particular stage.
- <img width="432" alt="image" src="https://github.com/user-attachments/assets/5f4bf59a-74f9-4e49-b810-89ec5e2aaf63">
-  
-![image](https://github.com/user-attachments/assets/55a87d78-9bc8-4965-9174-dd2d38d7749e)
+<img width="432" alt="image" src="https://github.com/user-attachments/assets/42addca9-ff7b-4eef-b109-520e3a959fa3">
+<img width="178" alt="image" src="https://github.com/user-attachments/assets/5e245570-9890-4157-aebc-b06a1a0c6e59">
+
 
 2.	This query counts how many direct reports each manager has.
- 
- 
-![image](https://github.com/user-attachments/assets/d353e6ff-f7c0-483f-95f7-91fc9626e4b3)
+ <img width="468" alt="image" src="https://github.com/user-attachments/assets/6670b6ab-4e8a-41c9-9ab2-41bf12f1ee08">
+ <img width="282" alt="image" src="https://github.com/user-attachments/assets/6dbb36df-5da0-45ee-a9e8-7ae4dfa196e8">
+
+3.	This query is designed to retrieve a list of employees who report directly to Jessica Wilson by checking the idBoss of each employee against Jessica Wilson's employee ID. Useful for finding who reports to a specific boss
+   <img width="444" alt="image" src="https://github.com/user-attachments/assets/e69853e0-5273-4cb0-a0e1-ffe0a1564140">
+<img width="192" alt="image" src="https://github.com/user-attachments/assets/c441b85d-dd02-43d1-b5f5-70f837257536">
+
+4.	Query: Total amount of sponsorship money received from a specific company for each festival (see variation on next page where I instead search a specific company to see what their total sponsorship was for a festival instead of pulling every company and sponsorName.
+   <img width="274" alt="image" src="https://github.com/user-attachments/assets/0fc839ce-990d-49a1-b674-c1d922a4681c">
+<img width="223" alt="image" src="https://github.com/user-attachments/assets/40d1a865-cffa-495c-ae60-fff833115c44">
+5.	Query returns the number of tickets sold for each ticket type for attendees aged 20 to 30, grouped by both ticket type and age.
+   <img width="315" alt="image" src="https://github.com/user-attachments/assets/72c9164f-3a00-4f35-a2a3-455bf59c9fb9">
+   <img width="234" alt="image" src="https://github.com/user-attachments/assets/596c31ef-aa2d-4c8e-bf37-af55c4d169ea">
+6.	This query identifies performers who have participated in more performances than the average number of performances and also lists the number of performances
+<img width="362" alt="image" src="https://github.com/user-attachments/assets/3229a4e5-e780-4938-985f-c239cc0a17fa">
+<img width="231" alt="image" src="https://github.com/user-attachments/assets/d791c9a8-3987-4691-a900-51027ab5889c">
+7.	This query retrieves the attendees who have purchased tickets of more than one type. 
+Note: It doesn’t return anything because the data we pulled from ChatGPT just had everyone buy one ticket (or maybe we stipulated that, idk) but this query still would be useful for  a manager. 
+<img width="429" alt="image" src="https://github.com/user-attachments/assets/724eb214-3418-4434-bae7-04e8fb743197">
+<img width="369" alt="image" src="https://github.com/user-attachments/assets/05f776ff-50c6-4d80-b6e2-f69140b6dcdf">
+
+8. List the Vendors by Total Sales
+<img width="534" alt="image" src="https://github.com/user-attachments/assets/e3686c9f-2bde-4947-ab6b-86d18a9da76a">
+<img width="288" alt="image" src="https://github.com/user-attachments/assets/7638bff7-fff2-464f-ad2f-db23ce6f0277">
+
+9.Which customers spent more than average on merch?
+<img width="353" alt="image" src="https://github.com/user-attachments/assets/56ea0b79-b2ba-4aa5-ab1b-48e919683042">
+<img width="358" alt="image" src="https://github.com/user-attachments/assets/4117117a-64e7-4586-889d-6a9aec547e40">
+
+10.How much did top earning artists get paid?
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/656e7a9d-2e33-4233-90ac-0bc12478f367">
+<img width="372" alt="image" src="https://github.com/user-attachments/assets/0e5af96c-bb8d-4044-97c0-f5c77c3c046f">
+
+
+
+
+
 
