@@ -67,4 +67,13 @@ The data model provides a robust structure to manage a multi-faceted music festi
 
 
 ## Queries
+1.	 Retrieve the names of employees working on a particular stage.
+ <img width="432" alt="image" src="https://github.com/user-attachments/assets/5f4bf59a-74f9-4e49-b810-89ec5e2aaf63">
+  
+![image](https://github.com/user-attachments/assets/55a87d78-9bc8-4965-9174-dd2d38d7749e)
+
+2.	This query counts how many direct reports each manager has.
+ 
+ 
+![image](https://github.com/user-attachments/assets/d353e6ff-f7c0-483f-95f7-91fc9626e4b3)
 
