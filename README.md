@@ -115,9 +115,10 @@ This query provides an insightful breakdown of sales performance across festival
 This query identifies attendees who have spent over $300 on tickets, providing key metrics such as their name, ticket type, total tickets purchased, total spending, and average ticket price. By focusing on the top 10 highest spenders, this analysis highlights high-value customers who contribute significantly to revenue. The results enable management to target these attendees with personalized offers, refine ticket pricing strategies, and prioritize premium ticket categories. This dynamic and actionable report ensures that as new purchases occur, the data will adapt, maintaining its relevance for strategic decision-making and revenue optimization.
 
 
+![PNG image](https://github.com/user-attachments/assets/406014b5-590a-47de-8b6d-6561fbc1244b)
 
- <img width="468" alt="image" src="https://github.com/user-attachments/assets/6670b6ab-4e8a-41c9-9ab2-41bf12f1ee08">
- <img width="282" alt="image" src="https://github.com/user-attachments/assets/6dbb36df-5da0-45ee-a9e8-7ae4dfa196e8">
+![unnamed-1](https://github.com/user-attachments/assets/6e53551b-363c-49fe-a659-b00a128931b2)
+
 
 3. **"Unsold Items and Vendor Report [CALL PT_Q3();]:**
 This query is designed to identify items that have not been sold or have zero sales by analyzing sales data in a database. It retrieves the item name, price, and vendor name from the Item and Vendor tables while calculating the total number of sales (TotalSold) for each item using a LEFT JOIN with the LineItem table. The LEFT JOIN ensures that items with no corresponding sales records in the LineItem table are included in the result, and the HAVING clause filters the data to show only items with TotalSold as NULL (indicating no sales records) or 0. Grouping by the item and vendor details ensures accurate aggregation for each unique item. This query provides valuable insight into unsold inventory, allowing businesses to make informed decisions about product promotion, pricing adjustments, or discontinuation.
