@@ -103,10 +103,12 @@ The data model provides a robust structure to manage a multi-faceted music festi
 
 ## Queries
 
-1. **"Unsold Items and Vendor Report [CALL PT_Q1();]:**
-This query is designed to identify items that have not been sold or have zero sales by analyzing sales data in a database. It retrieves the item name, price, and vendor name from the Item and Vendor tables while calculating the total number of sales (TotalSold) for each item using a LEFT JOIN with the LineItem table. The LEFT JOIN ensures that items with no corresponding sales records in the LineItem table are included in the result, and the HAVING clause filters the data to show only items with TotalSold as NULL (indicating no sales records) or 0. Grouping by the item and vendor details ensures accurate aggregation for each unique item. This query provides valuable insight into unsold inventory, allowing businesses to make informed decisions about product promotion, pricing adjustments, or discontinuation.
+1. **[Festival Attendee Sales Analysis by Age Group CALL PT_Q1();]:**
+This query provides an insightful breakdown of sales performance across festivals by categorizing attendees into age groups: "Under 18," "18–25," "26–40," and "40+." It calculates the total number of unique attendees (TotalAttendees) for each festival, the total sales generated (TotalSales), and the average sales revenue per attendee (SalesPerAttendee). By leveraging these metrics, the query ranks festivals in descending order of their SalesPerAttendee, offering a clear understanding of which festivals and age groups are the most profitable. This analysis helps identify key customer demographics and optimize future marketing and sales strategies for specific festivals.
 
-![PNG image](https://github.com/user-attachments/assets/8b9574c2-df45-45e8-a38b-5e5885f38d23)
+![PNG image](https://github.com/user-attachments/assets/6ddbb1e3-7c59-46e0-a1c0-b404f50a711e)
+
+![PNG image](https://github.com/user-attachments/assets/7f038827-d297-482e-9ade-bcefddbf4a63)
 
 2. **High-Value Attendee Analysis for Strategic Revenue Optimization[CALL PT_Q2();]:**
 
@@ -119,12 +121,10 @@ This query identifies attendees who have spent over $300 on tickets, providing k
  <img width="468" alt="image" src="https://github.com/user-attachments/assets/6670b6ab-4e8a-41c9-9ab2-41bf12f1ee08">
  <img width="282" alt="image" src="https://github.com/user-attachments/assets/6dbb36df-5da0-45ee-a9e8-7ae4dfa196e8">
 
-3. **[Festival Attendee Sales Analysis by Age Group CALL PT_Q3();]:**
-This query provides an insightful breakdown of sales performance across festivals by categorizing attendees into age groups: "Under 18," "18–25," "26–40," and "40+." It calculates the total number of unique attendees (TotalAttendees) for each festival, the total sales generated (TotalSales), and the average sales revenue per attendee (SalesPerAttendee). By leveraging these metrics, the query ranks festivals in descending order of their SalesPerAttendee, offering a clear understanding of which festivals and age groups are the most profitable. This analysis helps identify key customer demographics and optimize future marketing and sales strategies for specific festivals.
+3. **"Unsold Items and Vendor Report [CALL PT_Q3();]:**
+This query is designed to identify items that have not been sold or have zero sales by analyzing sales data in a database. It retrieves the item name, price, and vendor name from the Item and Vendor tables while calculating the total number of sales (TotalSold) for each item using a LEFT JOIN with the LineItem table. The LEFT JOIN ensures that items with no corresponding sales records in the LineItem table are included in the result, and the HAVING clause filters the data to show only items with TotalSold as NULL (indicating no sales records) or 0. Grouping by the item and vendor details ensures accurate aggregation for each unique item. This query provides valuable insight into unsold inventory, allowing businesses to make informed decisions about product promotion, pricing adjustments, or discontinuation.
 
-![PNG image](https://github.com/user-attachments/assets/6ddbb1e3-7c59-46e0-a1c0-b404f50a711e)
-
-![PNG image](https://github.com/user-attachments/assets/7f038827-d297-482e-9ade-bcefddbf4a63)
+![PNG image](https://github.com/user-attachments/assets/8b9574c2-df45-45e8-a38b-5e5885f38d23)
 
 
 4. **Total Sponsorship Money Received from Each Company for Each Festival[CALL PT_Q4();]:**
@@ -153,7 +153,7 @@ Dashboard:
 
 
 ## Data Base Information
-Name of the database: cs_jpo90532
+Name of the database: cs_ idd69275
 
 Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL PT_Q1();
 
