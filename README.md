@@ -113,9 +113,7 @@ This query provides an insightful breakdown of sales performance across festival
 2. **High-Value Attendee Analysis for Strategic Revenue Optimization[CALL PT_Q2();]:**
 
 This query identifies attendees who have spent over $300 on tickets, providing key metrics such as their name, ticket type, total tickets purchased, total spending, and average ticket price. By focusing on the top 10 highest spenders, this analysis highlights high-value customers who contribute significantly to revenue. The results enable management to target these attendees with personalized offers, refine ticket pricing strategies, and prioritize premium ticket categories. This dynamic and actionable report ensures that as new purchases occur, the data will adapt, maintaining its relevance for strategic decision-making and revenue optimization.
-![PNG image](https://github.com/user-attachments/assets/337a62c0-2cfb-49ac-a969-8847e88213da)
 
-![PNG image](https://github.com/user-attachments/assets/ecb067fa-e07e-465c-8543-b876e4702ea8)
 
 
  <img width="468" alt="image" src="https://github.com/user-attachments/assets/6670b6ab-4e8a-41c9-9ab2-41bf12f1ee08">
