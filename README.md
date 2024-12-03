@@ -27,22 +27,37 @@ At the core of this model is the **Festival** entity, representing each individu
 
 
 ## Data Dictionary
+<img width="655" alt="Screenshot 2024-12-03 at 14 35 07" src="https://github.com/user-attachments/assets/112b2126-8968-4c18-b47c-aaa83e61ebe1">
 
-<img width="686" alt="Screenshot 2024-10-13 at 5 04 23 PM" src="https://github.com/user-attachments/assets/622d59d1-882c-4a55-89be-9a1f725d6f61">
-<img width="681" alt="Screenshot 2024-10-13 at 5 04 42 PM" src="https://github.com/user-attachments/assets/3812596a-ba97-4140-9573-808dec034e8d">
-<img width="678" alt="Screenshot 2024-10-13 at 5 04 51 PM" src="https://github.com/user-attachments/assets/5541d2f4-1c9e-4a39-87f7-10005a569f77">
-<img width="675" alt="Screenshot 2024-10-13 at 5 04 57 PM" src="https://github.com/user-attachments/assets/546aa055-dd89-4b96-bf2e-3df31d0746f5">
-<img width="648" alt="Screenshot 2024-10-13 at 5 05 03 PM" src="https://github.com/user-attachments/assets/9c32f36e-5ed8-4767-b43b-edd95db623ba">
-<img width="670" alt="Screenshot 2024-10-13 at 5 05 14 PM" src="https://github.com/user-attachments/assets/07b6e258-b985-4388-be90-809f88aa1572">
-<img width="664" alt="Screenshot 2024-10-13 at 5 05 26 PM" src="https://github.com/user-attachments/assets/b21d2291-895f-40d5-9bcb-2be42e6be491">
-<img width="665" alt="Screenshot 2024-10-13 at 5 05 31 PM" src="https://github.com/user-attachments/assets/9ee35c9f-0841-4790-9300-2e43f0f17f88">
-<img width="644" alt="Screenshot 2024-10-13 at 5 05 38 PM" src="https://github.com/user-attachments/assets/218eac30-d184-4405-b2aa-6d550aac1986">
-<img width="650" alt="Screenshot 2024-10-13 at 5 05 53 PM" src="https://github.com/user-attachments/assets/39d58fb7-fa4d-465a-9215-9c17bff427c2">
-<img width="489" alt="Screenshot 2024-10-13 at 5 06 15 PM" src="https://github.com/user-attachments/assets/79de007c-b94b-4eab-9d03-657a1b356804">
-<img width="334" alt="Screenshot 2024-10-13 at 5 06 33 PM" src="https://github.com/user-attachments/assets/0b0920dd-1ce5-42d3-a8da-09da28409d8d">
-<img width="328" alt="Screenshot 2024-10-13 at 5 06 46 PM" src="https://github.com/user-attachments/assets/7ff185f3-738d-430e-801b-21dd72f75938">
-<img width="588" alt="Screenshot 2024-10-13 at 5 07 03 PM" src="https://github.com/user-attachments/assets/6b1a54fe-5d26-4268-a628-c4ea94151cf1">
-<img width="594" alt="Screenshot 2024-10-13 at 5 07 08 PM" src="https://github.com/user-attachments/assets/390cbf5a-7bb2-4293-8e13-5b29925ee782">
+<img width="655" alt="Screenshot 2024-12-03 at 14 36 18" src="https://github.com/user-attachments/assets/8a20809f-26ca-426d-ba80-52eed77ba1b4">
+
+<img width="655" alt="Screenshot 2024-12-03 at 14 36 55" src="https://github.com/user-attachments/assets/1ec664dd-3e23-4f05-b05f-9a810f0565eb">
+
+<img width="655" alt="Screenshot 2024-12-03 at 14 38 42" src="https://github.com/user-attachments/assets/c05e125a-da96-438c-a276-c3fb654a4ceb">
+
+<img width="653" alt="Screenshot 2024-12-03 at 14 39 31" src="https://github.com/user-attachments/assets/76203b23-cea5-4777-9222-ebc2f8de8967">
+
+<img width="653" alt="Screenshot 2024-12-03 at 14 40 01" src="https://github.com/user-attachments/assets/97076b9c-ed5d-43f4-91ec-212ad2203830">
+
+<img width="653" alt="Screenshot 2024-12-03 at 14 40 35" src="https://github.com/user-attachments/assets/f6635891-1fce-49f1-bdc3-0a43cd4b7a9c">
+
+<img width="653" alt="Screenshot 2024-12-03 at 14 41 08" src="https://github.com/user-attachments/assets/4c52128d-6310-4a23-ac90-bb389fb1d48e">
+
+<img width="653" alt="Screenshot 2024-12-03 at 14 41 20" src="https://github.com/user-attachments/assets/a178f2d8-0fb7-4dab-b37f-3725ebf954b8">
+
+<img width="653" alt="Screenshot 2024-12-03 at 14 41 35" src="https://github.com/user-attachments/assets/57c7bb20-38b2-42d2-bf04-7c034c2696df">
+
+<img width="653" alt="Screenshot 2024-12-03 at 14 41 44" src="https://github.com/user-attachments/assets/612d3bbd-30f5-4317-91c0-4cfe5fc7da75">
+
+<img width="591" alt="Screenshot 2024-12-03 at 14 43 04" src="https://github.com/user-attachments/assets/094ddcbe-78ed-4399-951c-2d56576f85c6">
+
+<img width="499" alt="Screenshot 2024-12-03 at 14 44 15" src="https://github.com/user-attachments/assets/08f42f44-67d0-4ead-928d-618b7c784048">
+
+<img width="499" alt="Screenshot 2024-12-03 at 14 44 47" src="https://github.com/user-attachments/assets/1d94d236-6958-4000-93e1-04a68c91d503">
+
+<img width="499" alt="Screenshot 2024-12-03 at 14 45 07" src="https://github.com/user-attachments/assets/184be016-fdac-418a-b70d-ca37a420d69e">
+
+<img width="499" alt="Screenshot 2024-12-03 at 14 45 38" src="https://github.com/user-attachments/assets/5f38abe3-99a2-4a0b-86e4-177f0f0dde5b">
 
 
 ### Key Relationships:
