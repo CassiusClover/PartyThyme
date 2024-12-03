@@ -103,67 +103,53 @@ The data model provides a robust structure to manage a multi-faceted music festi
 
 ## Queries
 
-<img width="610" alt="image" src="https://github.com/user-attachments/assets/bf0db6a7-840b-4a4c-a831-b32d05fd7c90">
+1. **"Unsold Items and Vendor Report [CALL PT_Q1();]:**
+This query is designed to identify items that have not been sold or have zero sales by analyzing sales data in a database. It retrieves the item name, price, and vendor name from the Item and Vendor tables while calculating the total number of sales (TotalSold) for each item using a LEFT JOIN with the LineItem table. The LEFT JOIN ensures that items with no corresponding sales records in the LineItem table are included in the result, and the HAVING clause filters the data to show only items with TotalSold as NULL (indicating no sales records) or 0. Grouping by the item and vendor details ensures accurate aggregation for each unique item. This query provides valuable insight into unsold inventory, allowing businesses to make informed decisions about product promotion, pricing adjustments, or discontinuation.
 
-1. **Employees Working at a Specific Stage [CALL PT_Q1();]:**
-This query retrieves the names of employees who are assigned to work at a specific stage, such as the "Party Stage." By joining the Employee and Stage tables, it matches employees to their designated stages. This information is crucial for managers who need to know which staff members are positioned where, allowing them to make adjustments for staffing needs, coordinate team activities, and ensure smooth operations during events.
+![PNG image](https://github.com/user-attachments/assets/8b9574c2-df45-45e8-a38b-5e5885f38d23)
 
-<img width="432" alt="image" src="https://github.com/user-attachments/assets/42addca9-ff7b-4eef-b109-520e3a959fa3">
-<img width="178" alt="image" src="https://github.com/user-attachments/assets/5e245570-9890-4157-aebc-b06a1a0c6e59">
+2. **High-Value Attendee Analysis for Strategic Revenue Optimization[CALL PT_Q2();]:**
 
-2. **Count of Direct Reports per Manager[CALL PT_Q2();]:**
-This query counts the number of employees who report directly to each manager by grouping employees based on their idBoss field, which indicates their supervisor. Understanding how many people report to each manager is valuable for assessing workload distribution and ensuring managers aren’t overburdened. It also helps in planning and allocating team members efficiently, especially when managing large teams during festival events.
+This query identifies attendees who have spent over $300 on tickets, providing key metrics such as their name, ticket type, total tickets purchased, total spending, and average ticket price. By focusing on the top 10 highest spenders, this analysis highlights high-value customers who contribute significantly to revenue. The results enable management to target these attendees with personalized offers, refine ticket pricing strategies, and prioritize premium ticket categories. This dynamic and actionable report ensures that as new purchases occur, the data will adapt, maintaining its relevance for strategic decision-making and revenue optimization.
+![PNG image](https://github.com/user-attachments/assets/337a62c0-2cfb-49ac-a969-8847e88213da)
+
+![PNG image](https://github.com/user-attachments/assets/ecb067fa-e07e-465c-8543-b876e4702ea8)
+
 
  <img width="468" alt="image" src="https://github.com/user-attachments/assets/6670b6ab-4e8a-41c9-9ab2-41bf12f1ee08">
  <img width="282" alt="image" src="https://github.com/user-attachments/assets/6dbb36df-5da0-45ee-a9e8-7ae4dfa196e8">
 
-3. **Employees Who Report Directly to Jessica Wilson[CALL PT_Q3();]:**
-This query specifically identifies which employees report directly to a manager named Jessica Wilson by matching their idBoss field to her employee ID. Knowing who reports to a particular supervisor is useful for management purposes, such as scheduling meetings, distributing tasks, or resolving issues within a team. It streamlines communication and helps Jessica track and support her direct reports effectively.
+3. **[Festival Attendee Sales Analysis by Age Group CALL PT_Q3();]:**
+This query provides an insightful breakdown of sales performance across festivals by categorizing attendees into age groups: "Under 18," "18–25," "26–40," and "40+." It calculates the total number of unique attendees (TotalAttendees) for each festival, the total sales generated (TotalSales), and the average sales revenue per attendee (SalesPerAttendee). By leveraging these metrics, the query ranks festivals in descending order of their SalesPerAttendee, offering a clear understanding of which festivals and age groups are the most profitable. This analysis helps identify key customer demographics and optimize future marketing and sales strategies for specific festivals.
 
-<img width="444" alt="image" src="https://github.com/user-attachments/assets/e69853e0-5273-4cb0-a0e1-ffe0a1564140">
-<img width="192" alt="image" src="https://github.com/user-attachments/assets/c441b85d-dd02-43d1-b5f5-70f837257536">
+![PNG image](https://github.com/user-attachments/assets/6ddbb1e3-7c59-46e0-a1c0-b404f50a711e)
+
+![PNG image](https://github.com/user-attachments/assets/7f038827-d297-482e-9ade-bcefddbf4a63)
+
 
 4. **Total Sponsorship Money Received from Each Company for Each Festival[CALL PT_Q4();]:**
-This query calculates the total sponsorship amount received from each company for different festivals. It groups the results by SponsorName and Festival. Tracking sponsorship funds by company and festival is essential for financial planning and analysis. It provides insights into which sponsors are contributing the most and can help in identifying valuable partnerships for future events.
+This query creates a view that aggregates festival data, calculating the total number of sponsors, stages, and sponsorship revenue for each festival. It then retrieves festivals with sponsorship revenue over 5000 and sorts them in descending order, helping managers identify high-revenue festivals for further analysis or decision-making.
 
-   <img width="274" alt="image" src="https://github.com/user-attachments/assets/0fc839ce-990d-49a1-b674-c1d922a4681c">
-<img width="223" alt="image" src="https://github.com/user-attachments/assets/40d1a865-cffa-495c-ae60-fff833115c44">
+![unnamed](https://github.com/user-attachments/assets/ba6092ff-48aa-4744-8de4-38bdd3c8db30)
 
-5. **Ticket Sales by Type for Attendees Aged 20 to 30[CALL PT_Q5();]:**
-This query retrieves the number of tickets sold, grouped by ticket type and the age of attendees (specifically those aged 20 to 30). By analyzing ticket sales by age group and type, managers can identify which demographics are buying certain types of tickets. This information is key for marketing strategies, promotions, and pricing models for future events.
+<img width="537" alt="Screenshot 2024-12-03 at 15 36 11" src="https://github.com/user-attachments/assets/f70d24d6-bc3d-400c-b71c-812992386258">
 
- <img width="315" alt="image" src="https://github.com/user-attachments/assets/72c9164f-3a00-4f35-a2a3-455bf59c9fb9">
-   <img width="234" alt="image" src="https://github.com/user-attachments/assets/596c31ef-aa2d-4c8e-bf37-af55c4d169ea">
 
-6. **Performers Who Participated in More Performances Than the Average[CALL PT_Q6();]:**
-This query identifies performers who have participated in more performances than the average number across all performers. By listing these high-performing artists, it can help organizers recognize popular or in-demand acts. Understanding which artists are most active can also inform scheduling decisions for future festivals and ensure top performers receive the exposure they deserve.
+5. **Performer Evaluation [CALL PT_Q5();]:**
+This query helps a manager evaluate performers by showing their total number of performances, average performance duration, and how their performance count compares to the average across all performers. We calculated duration by using the TIMESTAMPDIFF function, which calculates the difference between StartTime and EndTime of the performance. The query then computes the average of these differences (in minutes) for each performer, resulting in the average performance duration.
+<img width="537" alt="Screenshot 2024-12-03 at 15 39 40" src="https://github.com/user-attachments/assets/b03642be-8c56-486d-9d50-d0ee863b2b63">
 
-<img width="362" alt="image" src="https://github.com/user-attachments/assets/3229a4e5-e780-4938-985f-c239cc0a17fa">
-<img width="231" alt="image" src="https://github.com/user-attachments/assets/d791c9a8-3987-4691-a900-51027ab5889c">
+<img width="537" alt="Screenshot 2024-12-03 at 15 39 52" src="https://github.com/user-attachments/assets/1f5041de-a76b-4c4a-b3c0-cabd033410d9">
 
-7. **Attendees Who Purchased More Than One Type of Ticket[CALL PT_Q7();]:**
-This query checks for attendees who bought more than one type of ticket, although it currently returns no results because of a one-ticket-per-person limit. Tracking ticket purchases in this way would help identify attendees who are especially interested in multiple experiences at a festival, and it may guide changes to ticketing policies or create opportunities for special packages in the future.
 
-<img width="429" alt="image" src="https://github.com/user-attachments/assets/724eb214-3418-4434-bae7-04e8fb743197">
-<img width="369" alt="image" src="https://github.com/user-attachments/assets/05f776ff-50c6-4d80-b6e2-f69140b6dcdf">
+## Tableau ##
+![PNG image](https://github.com/user-attachments/assets/b001c277-7fa3-453d-b504-033472492b62)
+![PNG image](https://github.com/user-attachments/assets/5f35e123-9b5f-4b2a-84f7-fd60fe03fcb7)
+![PNG image](https://github.com/user-attachments/assets/9726f1c5-cd9f-4141-8f06-873cdddf49a5)
 
-8. **Vendors Ranked by Total Sales[CALL PT_Q8();]:**
-This query ranks vendors based on their total sales, providing a clear view of which vendors performed best during the festival. Knowing which vendors are bringing in the most revenue can help organizers make decisions on vendor selection, placement, and partnership opportunities for future events. It’s a key piece of data for maximizing profit and enhancing the attendee experience.
+Dashboard:
+![PNG image](https://github.com/user-attachments/assets/714559a8-04b2-43d0-8032-4fd01d51e1e4)
 
-<img width="534" alt="image" src="https://github.com/user-attachments/assets/e3686c9f-2bde-4947-ab6b-86d18a9da76a">
-<img width="288" alt="image" src="https://github.com/user-attachments/assets/7638bff7-fff2-464f-ad2f-db23ce6f0277">
-
-9. **Customers Who Spent More Than Average on Merchandise[CALL PT_Q9();]:**
-This query identifies customers who spent more than the average amount on festival merchandise. Recognizing these high spenders is useful for targeting loyal customers with special offers, loyalty rewards, or exclusive merchandise. It helps build relationships with attendees and encourages repeat purchases.
-
-<img width="353" alt="image" src="https://github.com/user-attachments/assets/56ea0b79-b2ba-4aa5-ab1b-48e919683042">
-<img width="358" alt="image" src="https://github.com/user-attachments/assets/4117117a-64e7-4586-889d-6a9aec547e40">
-
-10. **Top-Earning Artists and Their Pay[CALL PT_Q10();]:**
-This query retrieves a list of the top-earning performers, displaying their salary. Knowing which artists are the highest earners provides insight into budget allocations for performances. It also helps in negotiating contracts for future festivals, ensuring the festival can balance high-profile acts with cost-effective performances.
-
-<img width="468" alt="image" src="https://github.com/user-attachments/assets/656e7a9d-2e33-4233-90ac-0bc12478f367">
-<img width="372" alt="image" src="https://github.com/user-attachments/assets/0e5af96c-bb8d-4044-97c0-f5c77c3c046f">
 
 
 ## Data Base Information
