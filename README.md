@@ -23,7 +23,8 @@ Our model is based on the structure of a hypothetical music festival system, whe
 
 At the core of this model is the **Festival** entity, representing each individual festival. Festivals are held at different locations and have specific start and end dates. Each festival has multiple vendors, performances, stages, and employees linked to it. To maintain clear relationships, we've established several one-to-many and many-to-many relationships that reflect the real-world structure of these events.
 
-<img width="698" alt="Screenshot 2024-10-13 at 4 57 32 PM" src="https://github.com/user-attachments/assets/3f6b771b-aa09-4c65-9753-daa6534a22bf">
+![PNG image](https://github.com/user-attachments/assets/9103a31b-a780-48ba-8668-b64c34c0252a)
+
 
 ## Data Dictionary
 
